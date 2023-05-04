@@ -1,0 +1,23 @@
+@import 'features';
+@import 'mixins';
+
+header{
+    background-color: $color3;
+    color: $color2;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: larger;
+
+
+    nav a{
+        padding: 10px 40px;
+        transition: .4s ease;
+        cursor: pointer;
+        &:hover{
+            background-color: $color2;
+            color: $color3;
+        }
+    }
+}
